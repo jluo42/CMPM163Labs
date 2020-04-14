@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 2: Intro to Three.js Part 1</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+		
+		<script>
+
+		var scene = new THREE.Scene(); //creates new scene
+		var camera = new THREE.PerspectiveCamera(75, // new camera with positions
+				window.innerWidth/window.innerHeight, 0.1, 1000);
+		var renderer = new THREE.WebGLRenderer(); // creates renderer and intiate the size
+		renderer.setSize(window.innerWidth, window.innerHeight);
+		document.body.appendChild(renderer.domElement);
+
+		//create cube 2
+		var geometry = new THREE.BoxGeometry(); // new geometry
+		var material = new THREE.MeshBasicMaterial( {color: 0x5C5CFF} );
+		var cube = new THREE.Mesh(geometry, material); //new cube is created
+		scene.add(cube); 
+		camera.position.z = 5; //this moves the camera towards the viewer
+
+		//create cube 1
+		var geometry1 = new THREE.BoxGeometry(); // new geometry
+		var material1 = new THREE.MeshBasicMaterial( {color: 0x00FFFF} );
+		var cube1 = new THREE.Mesh(geometry1, material1); //new cube is created
+		scene.add(cube1); 
+		cube1.position.x = -2;
+
+		//create cube 3
+		var geometry2 = new THREE.BoxGeometry(); // new geometry
+		var material2 = new THREE.MeshBasicMaterial( {color: 0x00008b} );
+		var cube2 = new THREE.Mesh(geometry2, material2); //new cube is created
+		scene.add(cube2); 
+		cube2.position.x = 2;
+
+
+		function animate() {
+			requestAnimationFrame(animate);
+			renderer.render(scene, camera);
+
+			geometry.rotateX(0.01);
+			geometry.rotateY(0.01);
+
+			cube1.rotation.x += 0.03;
+			cube1.rotation.y += 0.03;
+			cube1.rotation.z += 0.03;
+
+			geometry2.rotateX(0.05);
+			cube2.rotation.y = 0.02;
+			cube2.rotation.z = 0.01;
+
+			
+		}
+		animate();
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 2: Intro to Three.js Part 2</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+	<script
+		src="../three.js-master/examples/js/loaders/GLTFLoader.js">
+	</script>
+		<script>
+ 			var scene = new THREE.Scene();
+ 			var camera = new THREE.PerspectiveCamera(75,
+			window.innerWidth/window.innerHeight, 0.1, 1000);
+			var renderer = new THREE.WebGLRenderer();
+ 			renderer.setSize(window.innerWidth, window.innerHeight);
+ 			document.body.appendChild(renderer.domElement);
+ 			camera.position.z = 200;
+
+ 			//light source
+ 			var light = new THREE.PointLight(0x6fbad4, 1, 100000);
+			light.position.set(50, 50, 50);
+			scene.add(light);
+
+			//additional light source
+			var light1 = new THREE.PointLight(0x389abc, 1, 100000);
+			light1.position.set(100, 100, 100);
+			scene.add(light1);
+
+			//3D dog model
+			var loader = new THREE.GLTFLoader();
+			loader.load('dog.glb', function (gltf) {
+				gltf.scene.position.x = -50;
+				scene.add(gltf.scene);
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});
+
+			//3D rabbit model
+			var loader1 = new THREE.GLTFLoader();
+			loader1.load('rabbit.glb', function (gltf) {
+				scene.add(gltf.scene);
+				gltf.scene.position.x = 50
+				gltf.scene.rotation.y = -10
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});
+
+			//3D flowers model
+				var loader2 = new THREE.GLTFLoader();
+			loader2.load('cat.glb', function (gltf) {
+				scene.add(gltf.scene);
+				gltf.scene.rotation.x = -150;
+				gltf.scene.position.z = -50;
+			}, function (xhr) {
+				console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+			}, function (error) {
+				console.error(error);
+			});		
+
+
+
+			function animate() {
+				requestAnimationFrame(animate);
+				renderer.render(scene, camera);
+			}
+			animate();
+
+		
+
+		</script>
+	</body>
+</html>
