@@ -1,6 +1,25 @@
 # CMPM163Labs
 Labs for CMPM163
 
+LAB 4
+---------------------------------------------------------------------------------------------------------
+lab 4 Google Drive Link
+https://drive.google.com/file/d/1_0Jy8ZN3qJijOFHsa32-hcIZA19f6eyE/view?usp=sharing
+
+Question 24 answers:
+a. 
+b.
+c.
+
+Cube Explanations:
+Starting from the left
+Cube1:
+Cube2:
+Cube3:
+Cube4:
+Cube5:
+
+
 LAB 3
 ---------------------------------------------------------------------------------------
 lab 3 Google Drive Video link
