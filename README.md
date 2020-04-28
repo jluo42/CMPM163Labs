@@ -4,7 +4,7 @@ Labs for CMPM163
 LAB 4
 ---------------------------------------------------------------------------------------------------------
 lab 4 Google Drive Link
-https://drive.google.com/file/d/1_0Jy8ZN3qJijOFHsa32-hcIZA19f6eyE/view?usp=sharing
+https://drive.google.com/file/d/19GNRYjDjWFQGToirw-Jqs9vWbrAPL2rK/view?usp=sharing
 
 Question 24 answers:
 a. x = u * 7
