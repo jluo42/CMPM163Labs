@@ -7,18 +7,26 @@ lab 4 Google Drive Link
 https://drive.google.com/file/d/1_0Jy8ZN3qJijOFHsa32-hcIZA19f6eyE/view?usp=sharing
 
 Question 24 answers:
-a. 
-b.
-c.
+a. x = u * 7
+b. y = (7 - 7v)
+c. (2.625, 5.25) Color = gray.
 
-Cube Explanations:
-Starting from the left
-Cube1:
-Cube2:
-Cube3:
-Cube4:
-Cube5:
+Cube Explanations: Starting from the left
 
+Cube1: Texture A. Followed the tutorial and built the cube using THREE.js built in texture functionality. Used texture "197.jpg"
+
+Cube2: Texture A & Normal Map A. Followed the tutorial and built the cube using THREE.js texture functionality Used texture "197.jpg" and "197_norm.jpg"
+
+Cube3: Texture B & Normal Map B. Used a new texture "161b.jpg" and a new normal map "161_norm.jpg". Created a new material1 variable that uses the THREE.js functionality to create a new mesh with the texture and normal map and implemented it onto the cube.
+
+Cube4: Texture C. Followed the tutorial and implemented a new texture "172.jpg" with shaders and implemented this shader onto the cube.
+
+Cube5: Texture D. Created a new fragment script "fragmentShader1.frag" and used a new visible texture "176.jpg," (2x2 grid).
+In this new fragment script, I checked if the (x,y) coordinates of the grid were within the sample size of 1. If not then I would change the values until the (x,y) values of the UV coordinates were within the sample size.
+Values with UV coordinates less than 0.5 which was the half of the sample size of 1 had their values multiplied by 2.0 to fit into the sample size
+Values with UV coordinates greater than 0.5 had their values multiplied by 2.0 then subtracted by 1.0 to fit into the sample size
+Values with x values greater than 0.5 had their values multiplied by 2.0 then subtracted by 1.0 and y values less than 0.5 were multiplied by 2.0.
+Values with y values greater than 0.5 had their values multiplied by 2.0 then subtracted by 1.0 and x values less than 0.5 were multiplied by 2.0.
 
 LAB 3
 ---------------------------------------------------------------------------------------
