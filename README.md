@@ -1,9 +1,20 @@
 # CMPM163Labs
 Labs for CMPM163
 
+LAB 5
+---------------------------------------------------------------------------------------------------------
+Lab 5 (part 1) Google Drive Link:
+https://drive.google.com/file/d/1JPPqzvkbuJcaKrF0rbgi9KtAIlsyaUgW/view?usp=sharing
+
+For the modification for the karting game: 
+I added an additional smoke particle effect to the exhaust for the kart. 
+I also modified and changed the current sky-box in the scene with another skybox found in the unity asset store. New skybox has a blue sky and white clouds.
+For enviormental changes, I changed the track up adding more track prefabs along with a curve-up and curve-down ramp with two additional check points. I also added speed boost around the map after every checkpoint. I added a ramp where the player would accelerate up and land while crashing onto the bowling pins. Addtional directional lighting and buildings were also added to make it feel more of a city.
+
+
 LAB 4
 ---------------------------------------------------------------------------------------------------------
-lab 4 Google Drive Link
+Lab 4 Google Drive Link
 https://drive.google.com/file/d/19GNRYjDjWFQGToirw-Jqs9vWbrAPL2rK/view?usp=sharing
 
 Question 24 answers:
