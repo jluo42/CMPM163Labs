@@ -6,6 +6,13 @@ LAB 6
 Unity Scene Screenshot
 ![](images/CMPM163_Lab6_ss.jpg)
 
+Lighting Overview and Lights:
+Spotlight: A light that is casted within a cone shade boundary. The light rays that are casted are pointed within the direction of the              cone shade
+Directional Light: Ray light that is casted through a single direction through the whole environment (I like to think of it as the sun                      of the scene's world).
+Point Light: Light that is casted in every direction from the center point of the light material. 
+Area Light: A light source that can only be used with baked lighting (so static game objects). The light that is casted is within a                 rectangular boundary and is casted within these boundaries
+
+
 LAB 5
 ---------------------------------------------------------------------------------------------------------
 Lab 5 (part 1) Google Drive Link:
