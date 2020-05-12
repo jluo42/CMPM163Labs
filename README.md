@@ -19,11 +19,15 @@ For this material, I used a texture pack from https://3dtextures.me/2018/10/29/l
 ![](images/basketball_reference.jpg) 
 ![](images/unitymaterial.png)
 
+Texture:
+For the two texture I created a brick wall and concrete flooring. I found the textures and normal maps froms
+Brick: https://3dtextures.me/2018/12/03/brick-wall-015/
+Concrete: https://3dtextures.me/2018/12/04/concrete-012/
+For the brick wall I added it to the material in the scene and fixed the tiling and colors of the texture before implementing
+For the concrete flooring, I implemented the textures onto the scene by using the normal map and color packs that it provided. I also adjusted a few properties to make the concrete more apparent.
 
-
-
-
-
+Skybox:
+For the skybox, I found a free skybox texture set from the Unity Asset store named "Skybox" and created a skybox out of the materials the pack provided.
 
 LAB 5
 ---------------------------------------------------------------------------------------------------------
