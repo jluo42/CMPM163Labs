@@ -1,6 +1,18 @@
 # CMPM163Labs
 Labs for CMPM163
 
+LAB 7
+---------------------------------------------------------------------------------------------------------
+Google Drive Link: 
+https://drive.google.com/file/d/1dOtxdL0b9LeQaf5-CpshspAIuNYpNg2R/view?usp=sharing
+
+For the mountain terrain scene I used the video from the tutorial and adjusted some elements within the shader graph. I adjusted the voronoi inputs and outputs from the position nodes by multiply it to y vertex position. For the water motion waves, I used the video provided in the tutorial and shader programming to create the vertex displacements. I adjusted the properties (color, strength, and speed) to make it fit more for my scene. In the creative portion, I found some free tree, rocks, and skybox assets from the unity asset store and used those to create an enviorment. The campfire and logs were created within unity used 3D cube objects. The fire was created by using unity's particles effects. I also tweaked a little of the lighting. 
+
+Partner Section: 
+I was not able to reach my partner for this section.
+
+
+
 LAB 6
 ---------------------------------------------------------------------------------------------------------
 Unity Scene Screenshot
