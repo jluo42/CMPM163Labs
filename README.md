@@ -3,8 +3,11 @@ Labs for CMPM163
 
 LAB 8
 ---------------------------------------------------------------------------------------------------------
-Reference City
+Reference City:
 ![](images/Lab8_KoreaCity.jpg)
+
+My City:
+![](images/Lab8_CityImage.jpg)
 
 
 LAB 7
