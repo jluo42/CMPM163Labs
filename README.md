@@ -7,7 +7,7 @@ Reference City:
 ![](images/Lab8_KoreaCity.jpg)
 
 My City:
-![](images/Lab8_CityImage.jpg)
+![](images/Lab8_MyCity.jpg)
 
 
 LAB 7
